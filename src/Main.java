@@ -12,10 +12,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car ford = new Car("FORD Mustang", 175, 250, 43800);
-        Car mitsubishi = new Car("MITSUBISHI Lancer", 120, 190, 17000);
-        Car toyota = new Car("TOYOTA Camry", 145, 200, 25000);
-        Car kia = new Car("KIA Rio", 125, 185, 15000);
+        Car ford = new Ford("FORD Mustang", 175, 250, 43800);
+        Car mitsubishi = new Mitsubishi("MITSUBISHI Lancer", 120, 190, 17000);
+        Car toyota = new Toyota("TOYOTA Camry", 145, 200, 25000);
+        Car kia = new Kia("KIA Rio", 125, 185, 15000);
 
         CheckCar checkCar = new CheckCar();
         checkCar.addingCarToCheckList(ford);
